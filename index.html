@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <title>MuzakMaker</title>
     </head>
     <body>
@@ -14,14 +14,15 @@
         </header>
 
         <nav>
-            <h2>MuzakMaker</h2>
+            <h2>Main Navigation</h2>
+            <input type="checkbox" id="dropdown"/>
+            <label for="dropdown"><span></span></label>
             <ul>
-                <li>Trending Songs</li>
-                <li>Your playlists</li>
-                <li>Curated Playlists</li>
-                <li>
-                    <img src="images/duke-silver.png" alt="profile picture of user Duke Silver wearing a hat">
-                </li>
+                <li><a href="#home">MuzakMaker</a></li>
+                <li><a href="#trending">Trending <br/>Songs</a></li>
+                <li><a href="#playlists">Your <br/>Playlists</a></li>
+                <li><a href="#curated">Curated <br/>Playlists</a></li>
+                <li><a href="#user"><img src="images/duke-silver.png" alt="user profile picture of user Duke Silver wearing a hat"></a></li>
             </ul>
         </nav>
 
