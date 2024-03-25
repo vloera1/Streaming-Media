@@ -63,6 +63,7 @@ nav ul {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 
@@ -126,7 +127,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 #intro {
     padding-top: 120px;
     background: linear-gradient(to right,#030a8c,#000000);
-    margin: none;
+    margin: 0;
 }
 /* End Intro Paragraph */
 
@@ -134,16 +135,55 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 #trending {
     background-color: #ffffff;
     padding: 5px;
-    margin: none;
+    margin: 0;
+}
+#trendingsections {
+    background-color: #0d8dfb;
 }
 /* End Trending Songs */
 
 /* Your Playlists */
 #playlisttitle {
     background-color: #ffffff;
-    margin: none;
+    margin: 0;
+}
+#your{
+    background-color: #2699FB;
+    margin: 0;
+}
+#allyourplaylists{
+    background-color: #ffffff;
+    margin: 0;
 }
 /* End Your Playlists */
+
+/* Curated Playlists */
+#curatedtitle{
+    background-color: #ffffff;
+    margin: 0;
+}
+#curated{
+    background-color: #030a8c;
+    margin: 0;
+}
+#morecurated{
+    background-color: #ffffff;
+    margin: 0;
+}
+#curatedsection {
+    background-color: #020873;
+}
+/* End Curated Playlists */
+
+/* Footer */
+footer{
+    background-color: #ffffff;
+    color: #590242;
+    width: 375px;
+    text-align: center;
+    margin: 0;
+}
+/* End Footer */
 
 /* Start of Scroll Bar */
 
@@ -259,7 +299,25 @@ audio::-webkit-media-controls-enclosure {
     }
     #MuzakMaker {
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: -10px;
+        left: 20px;
     }
+    nav {
+        width: 834px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
 }
