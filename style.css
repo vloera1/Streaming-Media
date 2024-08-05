@@ -320,6 +320,20 @@ audio::-webkit-media-controls-enclosure {
     #trending{
         width:834px;
     }
+    #trendingsections{
+        width: 417px;
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    #trending h3{
+        text-align: center;
+
+    }
+    #trending p {
+        text-align: center;
+    }
     #MuzakMaker {
         position: absolute;
         top: -10px;
@@ -386,23 +400,18 @@ audio::-webkit-media-controls-enclosure {
     }
     .scroll{
         width: 417px;
-        overflow-y: scroll;
-        overflow-x: hidden;
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        overflow-x: auto;
+        overflow-y: hidden;
     }
-    .scroll section {
+    .scroll section{
         margin: 10px;
         position: relative;
     }
-    .scroll div {
-        position: right;
-        top: 251px;
-        background-color: rgba(255,255,255,.75);
-        padding: 5px;
-        height: 50px;
-        width: 350px;
+    .scroll div{
+        position: absolute;
     }
-
-
 
 
     .more{
